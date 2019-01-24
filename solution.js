@@ -17,7 +17,7 @@ for (i = 0; i < parens.length; i++) {
   if((suma < 0) && (parens.charAt(i)==")")){
     return false;
   }
-} // de for 
+} 
   
 if(suma == 0){
   return true;
